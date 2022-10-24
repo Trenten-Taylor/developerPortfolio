@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trenten Taylor Portfolio</title>
+
+    <!-- Iconscout -->
+    <link
+    rel="stylesheet"
+    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+  />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- GOOGLEFONTS ICON -->
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+
+</head>
+<body>
+
+
+<!-- NAVBAR -->
+
+
+<nav>
+    <div class="container nav_container">
+      <ul class="nav_menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+      </ul>
+      <button id="open-menu-btn">
+        <span class="material-symbols-outlined"> menu </span>
+      </button>
+      <button id="close-menu-btn">
+        <span class="material-symbols-outlined"> close </span>
+      </button>
+    </div>
+  </nav>
+
+
+<!-- INTRO SECTION -->
+
+
+    <section class="intro">
+        <div class="intro-left">
+            <div class="intro-left-container">
+                <h2 class="intro-1">Hello, My Name Is</h2>
+                <h1 class="intro-2">Trent</h1>
+                <h2 class="intro-1">I am a...</h2>
+                <div class="intro-title">
+                    <div class="intro-title-container">
+                        <div class="intro-title-item">Web Developer</div>
+                        <div class="intro-title-item">Creative</div>
+                        <div class="intro-title-item">Problem Solver</div>
+                        <div class="intro-title-item">Collaborator</div>
+                        <div class="intro-title-item">Dog Lover</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-right">
+            <div class="intro-right-container">
+                <img src="./imgs/me.png" alt="" class="intro-img">
+            </div>
+        </div>
+    </section>
+
+
+<!-- About Section -->
+
+
+    <section class="about">
+        <div class="about-container">
+            <div class="about-right">
+                <div class="about-img1">
+                    <img src="./imgs/passion.png" alt="" class="img-passion">
+                </div>  
+            </div>
+            <div class="about-left">
+                <h3 class="small-header">About</h3>
+                <h2>Step Outside of the Box</h2>
+                <p>I graduated with my Bachelor's in Interdisciplinary Studies with a concentration in Business & Sciences. But like many people, I began to realize that the path I was pursuing wasn't exactly my calling. Not because I wasn't good at it, but I just didn't have the drive that I needed because the interest wasn't there. I've since made the tough decision to follow my heart, change careers and get into coding and since then I haven't looked back. I feel refreshed, more motivated and excited to continue my learning as I search for my first job in tech!  
+                <br>
+                <br>
+                I am a self-taught developer using an online coding Bootcamp with experience in HTML, CSS, & associated frameworks such as Bootstrap & Bulma. I also have experience in JavaScript with everything from arrays, strings, methods, arrow functions, async/await, DOM, APIs & more.  </p>
+            </div>
+            
+        </div>
+    </section>
+
+
+<!-- Contact Section -->
+
+
+    <section class="contact">
+        <div class="container contact_container">
+            <aside class="aside contact_aside">
+                <div class="aside_image">
+                    <img src="./imgs/contact.png">
+                </div>
+                <h2>Contact Me</h2>
+                <p>
+                    Send me a message using my email below or the form on this page. I'm always open to new networking opportunities!
+                </p>
+                <ul class="ul contact_details">
+                    <li>
+                        <i class="uil uil-envelope"></i>
+                        <h5>TrentenATaylor@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i class="uil uil-location-point"></i>
+                        <h5>Tampa, FL</h5>
+                    </li>
+                </ul>
+                <ul class="contact_socials">
+                    <li><a href="https://www.linkedin.com/in/trenten-taylor/"><i class="uil uil-linkedin-alt"></i></a></li>
+                    <li><a href="https://github.com/Trenten-Taylor"><i class="uil uil-github"></i></a></li>
+                </ul>
+            
+            </aside>
+
+
+            <form action="https://formspree.io/f/xnqrbwla" method="POST" class="contact_form">
+                <div class="form_name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                    <input type="text" name="Phone" placeholder="Phone">
+                </div>
+                <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+<script src="main.js"></script>
+</body>
+</html>

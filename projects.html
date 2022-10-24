@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+     <!-- Iconscout -->
+     <link
+     rel="stylesheet"
+     href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+   />
+ 
+   <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- GOOGLEFONTS ICON -->
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+     />
+ 
+</head>
+<body>
+
+    <nav>
+        <div class="container nav_container">
+          <ul class="nav_menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+          </ul>
+          <button id="open-menu-btn">
+            <span class="material-symbols-outlined"> menu </span>
+          </button>
+          <button id="close-menu-btn">
+            <span class="material-symbols-outlined"> close </span>
+          </button>
+        </div>
+      </nav>
+
+      <section class="projects">
+        <h2>Projects</h2>
+        <div class="container projects_container">
+          <article class="project">
+            <div class="project_image">
+              <img src="./imgs/edusite.png">
+            </div>
+            <div class="project_info">
+              <h4>EDU Site</h4>
+            <p>
+                Responsive multi-page website using HTML, CSS, & JavaScript.
+            </p>
+            <a href="https://trenten-taylor-edu.surge.sh/index.html" class="btn btn-primary">View Project</a>
+            <a href="https://github.com/Trenten-Taylor/educationWebsite" class="btn btn-primary">View Github</a>
+            </div>
+          </article>
+    
+          <article class="project">
+            <div class="course_image">
+              <img src="./imgs/wiki.png">
+            </div>
+            <div class="project_info">
+              <h4>Wikipedia API</h4>
+            <p>
+              Web app that allows you to use the search bar and pull from the wikipedia API to give multiple results on one page. HTML, CSS, & JavaScript.
+            </p>
+            <a href="https://trenten-taylor-wikipediaapp.surge.sh/" class="btn btn-primary">View Project</a>
+            <a href="https://github.com/Trenten-Taylor/wikipediaApp" class="btn btn-primary">View Github</a>
+            </div>
+          </article>
+    
+          <article class="project">
+            <div class="project_image">
+              <img src="./imgs/loading.png">
+            </div>
+            <div class="project_info">
+              <h4>Under Construction</h4>
+              <p>
+                Currently working on my next big project! Click the LinkedIn icon below to connect with me and see what I'm working on next.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section> 
+    
+
+      <section class="contact">
+        <div class="container contact_container">
+            <aside class="aside contact_aside">
+                <div class="aside_image">
+                    <img src="./imgs/contact.png">
+                </div>
+                <h2>Contact Me</h2>
+                <p>
+                    Send me a message using my email below or the form right on this page. I'm always open to new networking opportunities!
+                </p>
+                <ul class="ul contact_details">
+                    <li>
+                        <i class="uil uil-envelope"></i>
+                        <h5>TrentenATaylor@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i class="uil uil-location-point"></i>
+                        <h5>Tampa, FL</h5>
+                    </li>
+                </ul>
+                <ul class="contact_socials">
+                    <li><a href="https://www.linkedin.com/in/trenten-taylor/"><i class="uil uil-linkedin-alt"></i></a></li>
+                    <li><a href="https://github.com/Trenten-Taylor"><i class="uil uil-github"></i></a></li>
+                </ul>
+            </aside>
+
+
+            <form action="https://formspree.io/f/xnqrbwla" method="POST" class="contact_form">
+                <div class="form_name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                    <input type="text" name="Phone" placeholder="Phone">
+                </div>
+                <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
