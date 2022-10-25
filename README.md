@@ -1,17 +1,17 @@
-#Developer Portfolio
+# Developer Portfolio
 <br/>
-##General Info
+## General Info
 <br/>
 This is the initial release for my responsive web developer portfolio. 
 <br/>
-##Stack
+## Stack
 HTML
 <br/>
 CSS
 <br/>
 JavaScript
 <br/>
-##To Do
+## To Do
 <br/>
 Finish making the site responsive on all devices. Currently need to update main page for small phones. 
 <br/>
