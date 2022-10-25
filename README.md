@@ -18,3 +18,6 @@ Finish making the site responsive on all devices. Currently need to update main 
 Refactor code to make it cleaner/more consistent.
 
 Add in additional projects as they are created.
+
+## Link to site
+https://trenten-taylor-portfolio.surge.sh/
