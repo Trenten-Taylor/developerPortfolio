@@ -1,6 +1,6 @@
 # Developer Portfolio
-<br/>
-### General Info
+
+## General Info
 <br/>
 This is the initial release for my responsive web developer portfolio. 
 <br/>
